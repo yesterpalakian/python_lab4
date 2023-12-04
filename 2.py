@@ -13,7 +13,7 @@ class Country:
         self.area = area
         self.population = population
 
-# Создание списка объектов Country
+
 countries = [
     Country("РБ", "Минск", 34567, 12493849),
     Country("РФ", "Москва", 298565643, 2082438),
