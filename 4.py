@@ -12,8 +12,8 @@ class Music:
         self.artist = artist
 
     @classmethod
-    def class_method(self):
-        print(f"жанр музыки: {self.genre}")
+    def class_method(cls):
+        print(f"жанр музыки: {cls.genre}")
 
     def play(self):
         print(f"Играет {self.title} исполнителя {self.artist}")
